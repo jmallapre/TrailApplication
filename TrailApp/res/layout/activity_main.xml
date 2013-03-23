@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <TextView
+        android:id="@+id/lbl_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/lbl_Location"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Spinner
+        android:id="@+id/spinner_Station"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/lbl_Destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/lbl_Destination"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edit_Destination"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/edit_Destination"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="viewMap"
+        android:text="@string/button_map"
+        android:textSize="20sp" />
+
+    <WebView
+        android:id="@+id/MYwebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+</LinearLayout>

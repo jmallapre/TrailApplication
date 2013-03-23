@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trail</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="edit_Destination">Enter Destination</string>
+    <string name="lbl_Location">From:</string>
+    <string name="lbl_Destination">Going to:</string>
+    <string name="button_map">View Map</string>
+  
+    
+    <string-array name="stations_array">
+        <item>Santolan</item>
+        <item>Katipunan</item>
+        <item>Anonas</item>
+        <item>Araneta Center - Cubao</item>
+        <item>Betty Go Belmonte</item>
+        <item>Gilmore</item>
+        <item>J.Ruiz</item>
+        <item>V.Mapa</item>
+        <item>Pureza</item>
+        <item>Legarda</item>
+        <item>Recto</item>
+    </string-array>
+    
+</resources> 
